@@ -15,7 +15,7 @@ const Footer = () => {
         <div className='w-full flex flex-col items-center justify-center m-auto'>
             <div className='w-full h-full flex flex-row flex-wrap items-center justify-around '>
 
-                <div className='min-w-[200px] h-auto flex flex-col items-center justify-start'>
+                <div className='md:min-w-[200px] min-w-[100px] h-auto flex flex-col items-center justify-start'>
                     <div className='font-bold text-[16px]'>Community</div>
                     <p className='flex flex-row items-center my-[15px] cursor-pointer'>
                         <FaYoutube />
@@ -30,7 +30,7 @@ const Footer = () => {
                         <span className='text-[15px] ml-[6px]'>Discord</span>
                     </p>
                 </div>
-                <div className='min-w-[200px] h-auto flex flex-col items-center justify-start'>
+                <div className='md:min-w-[200px] min-w-[100px] h-auto flex flex-col items-center justify-start'>
                     <div className='font-bold text-[16px]'>Social Media</div>
                     <p className='flex flex-row items-center my-[15px] cursor-pointer'>
                         <RxInstagramLogo />
@@ -45,7 +45,7 @@ const Footer = () => {
                         <span className='text-[15px] ml-[6px]'>LinkedIn</span>
                     </p>
                 </div>
-                <div className='min-w-[200px] h-auto flex flex-col items-center justify-start'>
+                <div className='min-w-[200px] h-auto flex flex-col items-center justify-start pt-[20px] md:pt-0'>
                     <div className='font-bold text-[16px]'>About</div>
                     <p className='flex flex-row items-center my-[15px] cursor-pointer'>
                         
@@ -62,7 +62,7 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div className='mb-[20px] text-[15px] text-center'>
+            <div className='mb-[18px] text-[15px] text-center pt-[10px]'>
                 &copy; Made With Love 💖
             </div>
         </div>

@@ -14,9 +14,9 @@ const Navbar = () => {
             </a>
             <div className='w-[500px] h-full flex flex-row items-center justify-between md:mr-20'>
                 <div className='w-full h-auto flex items-center justify-between border border-[#7042F861] bg-[#0300145E] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200'>
-                    <a href="#about-me" className='cursor-pointer'>About me</a>
-                    <a href="#skills" className='cursor-pointer'>Skills</a>
-                    <a href="#projects" className='cursor-pointer'>Projects</a>
+                    <a href="#about-me" className='cursor-pointer text-[13px] md:text-[18px]'>About me</a>
+                    <a href="#skills" className='cursor-pointer text-[13px] md:text-[18px]'>Skills</a>
+                    <a href="#projects" className='cursor-pointer text-[13px] md:text-[18px]'>Projects</a>
                 </div>
             </div>
             <div className='flex flex-row gap-5'>
