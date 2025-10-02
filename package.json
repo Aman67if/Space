@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.0.18",
+    "caniuse-lite": "^1.0.30001746",
     "next": "14.0.3",
     "react": "^18",
     "react-dom": "^18",

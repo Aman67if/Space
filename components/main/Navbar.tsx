@@ -4,15 +4,15 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div className='w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50 md:px-10 pl-[5px] pr-[55px]'>
+    <div className='w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50 md:px-10 pl-[5px] md:pr-[55px]'>
         <div className='w-full h-full flex flex-row items-center justify-between m-auto px-[10px]'>
             <a href="#about-me" className='h-auto w-auto flex flex-row items-center'>
-                <Image src='/NavLogo.png' alt='logo' height={70} width={70} className='cursor-pointer hover:animate-slowspin'/>
-                <span className='font-bold ml-[10px] hidden md:block text-gray-300'>
-                    Welcome To Space
+                <Image src='/profile.jpg' alt='logo' height={45} width={45} className='cursor-pointer hover:animate-slowspin rounded-full'/>
+                <span className='font-bold ml-[10px] text-lg text-gray-300'>
+                    Aman Choudhary
                 </span>
             </a>
-            <div className='w-[500px] h-full flex flex-row items-center justify-between md:mr-20'>
+            <div className='w-[400px] hidden h-full md:flex flex-row items-center justify-between md:mr-20'>
                 <div className='w-full h-auto flex items-center justify-between border border-[#7042F861] bg-[#0300145E] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200'>
                     <a href="#about-me" className='cursor-pointer text-[13px] md:text-[18px]'>About me</a>
                     <a href="#skills" className='cursor-pointer text-[13px] md:text-[18px]'>Skills</a>
@@ -21,7 +21,7 @@ const Navbar = () => {
             </div>
             <div className='flex flex-row gap-5'>
                 {Socials.map((social) => (
-                    <Image src={social.src} alt={social.name} key={social.name} height={24} width={24}/>
+                    <a href={social.url} key={social.name} target='_blank' rel='noopener noreferrer'><Image src={social.src} alt={social.name} height={26} width={26}/></a>
                 ))}
             </div>
         </div>

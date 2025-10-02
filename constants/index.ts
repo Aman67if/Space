@@ -1,3 +1,5 @@
+import { title } from "process";
+
 export const Skill_data = [
     {
         skill_name: "Html 5",
@@ -35,12 +37,12 @@ export const Skill_data = [
         width: 80,
         height: 80,
     },
-    {
-        skill_name: "React Query",
-        Image: "/reactquery.png",
-        width: 80,
-        height: 80,
-    },
+    // {
+    //     skill_name: "React Query",
+    //     Image: "/reactquery.png",
+    //     width: 80,
+    //     height: 80,
+    // },
     {
         skill_name: "Type Script",
         Image: "/ts.png",
@@ -82,16 +84,14 @@ export const Skill_data = [
 
 export const Socials = [
     {
-        name: "Discord",
-        src: "/instagram.svg",
+        name: "Github",
+        src: "/gitwhite.png",
+        url: "https://github.com/aman67if"
     },
     {
-        name: "Facebook",
-        src: "/facebook.svg",
-    },
-    {
-        name: "Instagram",
-        src: "/discord.svg",
+        name: "LinkedIn",
+        src: "/linkedin.png",
+        url: "https://www.linkedin.com/in/aman67if"
     },
 ];
 
@@ -140,12 +140,12 @@ export const Frontend_skill = [
         width: 80,
         height: 80,
     },
-    {
-        skill_name: "React Query",
-        Image: "/reactquery.png",
-        width: 80,
-        height: 80,
-    },
+    // {
+    //     skill_name: "React Query",
+    //     Image: "/reactquery.png",
+    //     width: 80,
+    //     height: 80,
+    // },
     {
         skill_name: "Type Script",
         Image: "/ts.png",
@@ -197,12 +197,12 @@ export const Backend_skill = [
         width: 70,
         height: 70,
     },
-    {
-        skill_name: "Prisma",
-        Image: "/prisma.webp",
-        width: 70,
-        height: 70,
-    },
+    // {
+    //     skill_name: "Prisma",
+    //     Image: "/prisma.webp",
+    //     width: 70,
+    //     height: 70,
+    // },
     {
         skill_name: "Graphql",
         Image: "/graphql.png",
@@ -211,40 +211,78 @@ export const Backend_skill = [
     },
 ];
 
-export const Full_stack = [
-    {
-        skill_name: "React Native",
-        Image: "/ReactNative .png",
-        width: 70,
-        height: 70,
-    },
-    {
-        skill_name: "Tauri",
-        Image: "/tauri.svg",
-        width: 70,
-        height: 70,
-    },
-    {
-        skill_name: "Docker",
-        Image: "/docker.webp",
-        width: 70,
-        height: 70,
-    },
+// export const Full_stack = [
+//     {
+//         skill_name: "React Native",
+//         Image: "/ReactNative .png",
+//         width: 70,
+//         height: 70,
+//     },
+//     {
+//         skill_name: "Tauri",
+//         Image: "/tauri.svg",
+//         width: 70,
+//         height: 70,
+//     },
+//     {
+//         skill_name: "Docker",
+//         Image: "/docker.webp",
+//         width: 70,
+//         height: 70,
+//     },
 
+//     {
+//         skill_name: "Figma",
+//         Image: "/figma.png",
+//         width: 50,
+//         height: 50,
+//     },
+
+// ];
+
+// export const Other_skill = [
+//     {
+//         skill_name: "Go",
+//         Image: "/go.png",
+//         width: 60,
+//         height: 60,
+//     },
+// ];
+
+export const Projects_data = [
     {
-        skill_name: "Figma",
-        Image: "/figma.png",
-        width: 50,
-        height: 50,
+        title: "Two Good Co.",
+        image: "/twogood.png",
+        note: "",
+        src: "https://aman67if.github.io/TwoGoodCo-Web-Copy/",
+        description: "Two Good Co.🏆 : This website was inspired by an award-winning design from Awwwards, and I meticulously recreated its stunning frontend and animations.",
     },
-
-];
-
-export const Other_skill = [
     {
-        skill_name: "Go",
-        Image: "/go.png",
-        width: 60,
-        height: 60,
+        title: "Agroneeds",
+        image: "/agroneeds.png",
+        note: "",
+        src: "https://agroneeds.vercel.app/",
+        description: "AgroNeeds is a one-stop online store for farmers, offering essential farm supplies like organic manure, seeds, tools, and more to support sustainable and productive farming.",
+    },
+    {
+        title: "Zyphrus",
+        image: "/zyphrus.png",
+        note: "NOTE: This project is still in development phase.",
+        src: "https://zyphrus.vercel.app/",
+        description: "Zyphrus is a cutting-edge music platform offering a personalized listening experience, tailored to your moods and moments — bringing you closer to the music you love.",
+    },
+    {
+        title: "Scan",
+        image: "/scan.png",
+        note: "NOTE: This project is in development phase. Coming Soon!!",
+        src: "#projects",
+        description: "Smart web app automating attendance, via face recognition providing dashboards and analytics for efficient management.",
+    },
+    {
+        title: "PodXone",
+        image: "/podxone.png",
+        note: "NOTE: This project is in development phase. Coming Soon!!",
+        src: "#projects",
+        description: "PodXone is an AI-powered podcast app that will help you discover, enjoy, and stay updated with your favorite shows—anytime, anywhere, all in one place.",
     },
 ];
